@@ -86,7 +86,7 @@ int main()
     std::cout << scn0 << "\n";
     std::cout << scn1 << "\n";
 
-    scn0 = -scn0;
+    scn0 = -1 * scn0;
     std::cout << scn0 << "\n";
     scn0 = scn2 * (scn3 * scn0);
     std::cout << scn0 << "\n";
@@ -113,6 +113,10 @@ int main()
     std::cout << scn4 << "\n";
 
     scn4 -= scn0;
+
+    std::cout << scn4 << "\n";
+
+    scn4 = scn4.createUnitVector();
 
     std::cout << scn4 << "\n";
 
@@ -210,6 +214,16 @@ int main()
     try
     {
         std::cout << (scn0 / 0) << "\n";
+    }
+    catch (std::exception &ex)
+    {
+        std::cout << ex.what() << "\n";
+    }
+
+    try
+    {
+        evec::EuclideanVector zero_v{ 0, 0, 0, 0, 0, 0 };
+        std::cout << (zero_v.createUnitVector()) << "\n";
     }
     catch (std::exception &ex)
     {
