@@ -1,0 +1,45 @@
+2: [0 0]
+D1:2 [1 2 3]
+[4 5 6 7] Euclidean Norm = 11.225
+[5 4 3 2 1] Unit Vector: [0.6742 0.53936 0.40452 0.26968 0.13484] L = 1
+[9 0 8 6 7]
+[9 0 8 6 7]
+[9 0 8 6 7]
+[]
+[14 4 11 8 8]
+[5 4 3 2 1]
+[10 8 6 4 2]
+[0.5 1 1.5]
+dot product = 7
+true
+false
+[1 1 1.5]
+1
+1
+1.5
+[1 2 3]
+========================= my own test cases =========================
+[0]
+[9 8 7 6 5]
+[]
+[-9 -8 -7 -6 -5]
+[-255 -510 -765 -1020 -1275 -1530]
+[9 8 7 6 5]
+[1 2 3 4 5 6]
+[-69.0576 -138.115 -207.173 -276.23 -345.288 -414.345]
+[-68.0576 -136.115 -204.173 -272.23 -340.288 -408.345]
+[-136.115 -272.23 -408.345 -544.461 -680.576 -816.691]
+[-1.36115 -2.7223 -4.08345 -5.44461 -6.80576 -8.16691]
+[253.639 507.278 760.917 1014.56 1268.19 1521.83]
+EuclideanVector: Numbers of dimensons should be the same!
+EuclideanVector: Numbers of dimensons should be the same!
+EuclideanVector: Numbers of dimensons should be the same!
+EuclideanVector: Numbers of dimensons should be the same!
+EuclideanVector: Numbers of dimensons should be the same!
+EuclideanVector: Cannot copy, assign or move an instance to itself!
+EuclideanVector: Cannot copy, assign or move an instance to itself!
+EuclideanVector: Index out of range!
+EuclideanVector: Index out of range!
+EuclideanVector: Divisor should not be zero!
+EuclideanVector: Divisor should not be zero!
+=================== end of the program =================
